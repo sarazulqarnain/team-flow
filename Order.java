@@ -5,7 +5,7 @@ public class Order {
     private final String tier;
     private final int quantity;
     private final double total;
-    private final String deadline; // Use YYYY-MM-DD format.
+    private final String deadline; 
     private String stage;
 
     public Order(String id, String customerId, String garment, String tier,
@@ -30,7 +30,7 @@ public class Order {
     public String getStage() { return stage; }
     public void setStage(String stage) { this.stage = stage; }
 
-    @Override
+    
     public String toString() {
         return id + " | " + customerId + " | " + garment + " | " + tier + " | "
                 + quantity + " | " + total + " | " + deadline + " | " + stage;
