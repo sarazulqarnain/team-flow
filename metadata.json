@@ -1,6 +1,0 @@
-{
-  "name": "TeamFlow",
-  "description": "A simple, private task board for small teams to assign tasks, track progress in To do, In progress, and Done, and collaborate securely without chat clutter.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
